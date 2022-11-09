@@ -1,0 +1,90 @@
+{
+    "name": "Taiko Drum Test",
+    "maps": [
+        {
+            "name": "Drum",
+            "id": "78f617e7-2d6e-4e6b-862d-7e78da2af7ac",
+            "actions": [
+                {
+                    "name": "Left Face",
+                    "type": "Button",
+                    "id": "d0257cc2-4d43-429b-b0d1-78045c5210d0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Right Face",
+                    "type": "Button",
+                    "id": "da49963c-c9e6-4e95-b9e6-21f3620007ae",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Left Rim",
+                    "type": "Button",
+                    "id": "2044264b-fac5-457b-891c-2ea18ed66b4e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Right Rim",
+                    "type": "Button",
+                    "id": "3f57dd13-73c0-448a-a1d2-e2dece87f502",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a7eae793-6e01-4fa2-9338-67484f5975b6",
+                    "path": "<HID::HORI CO.,LTD. Taiko Controller>/button11",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Left Face",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0998bfae-1145-4153-9cb1-4bfdf15fbb07",
+                    "path": "<HID::HORI CO.,LTD. Taiko Controller>/button12",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Right Face",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fcd84621-8f16-4dc7-86d2-ae38deab025f",
+                    "path": "<HID::HORI CO.,LTD. Taiko Controller>/button7",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Left Rim",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "76dcee50-614d-4631-b25b-863c28507e98",
+                    "path": "<HID::HORI CO.,LTD. Taiko Controller>/button8",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Right Rim",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

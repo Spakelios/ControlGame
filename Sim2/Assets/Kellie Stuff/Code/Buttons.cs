@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Buttons : MonoBehaviour
 {
@@ -41,5 +42,15 @@ public class Buttons : MonoBehaviour
   cam3.SetActive(false);
   cam4.SetActive(true);
  }
+
+ public void pop()
+ {
+  cam1.SetActive(false);
+  cam2.SetActive(true);
+ }
  
+ public void newscene()
+ {
+  SceneManager.LoadScene("vn test");
+ }
 }

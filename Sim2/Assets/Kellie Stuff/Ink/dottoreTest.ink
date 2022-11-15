@@ -1,6 +1,6 @@
 EXTERNAL Name(charName)
 
-{Name("Dottore")}
+{Name("Stardust")}
 
 
 Oh, Hey there you! Liking the party? 

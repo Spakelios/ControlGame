@@ -12,8 +12,8 @@ public class UIStuff : MonoBehaviour
     private void Start()
 
     {
-        name.text = InputEntry.playerName.ToString();
-        name2.text = InputEntry.playerName.ToString();
-    
+        name.text = InputEntry.playerName;
+        name2.text = InputEntry.playerName;
+
     }
 }

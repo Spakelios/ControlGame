@@ -5,10 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Kellie Stuff/scenes/vn test.unity
     guid: 12f361b49bad8b04bb8f87c3e8bea4db
   - enabled: 1
     path: Assets/Kellie Stuff/scenes/start.unity
     guid: 71c0152aced79354cb989adf446779d2
+  - enabled: 1
+    path: Assets/Kellie Stuff/scenes/VN Kellie.unity
+    guid: 551d43aa019b9cb4cb18e2996ecd6df1
   m_configObjects: {}

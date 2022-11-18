@@ -12,7 +12,7 @@ public class playDono : MonoBehaviour
 
  IEnumerator play()
  {
-  yield return new WaitForSeconds(10);
+  yield return new WaitForSeconds(5);
 
   Dono1.SetActive(true);
 
@@ -21,7 +21,7 @@ public class playDono : MonoBehaviour
 
  IEnumerator play2()
  {
-  yield return new WaitForSeconds(10);
+  yield return new WaitForSeconds(5);
 
   Dono2.SetActive(true);
  }

@@ -3,12 +3,12 @@ EXTERNAL Name(charName)
 {Name("Stardust")}
 
 
-Oh, Hey there you! Liking the party? 
+Hey, you ready to go?
 ...
 
-* [ A lot more now that you're here-! ] -> one
+* [ Yeah! ] -> one
 
-* [ Not really my style..] -> two
+* [no my chats full of toe wanters ] -> two
 
 == one == 
 

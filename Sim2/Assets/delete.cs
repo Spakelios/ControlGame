@@ -10,9 +10,10 @@ public class delete : MonoBehaviour
         yield return new WaitForSeconds(10);
         
         gameObject.SetActive(false);
+
     }
 
-    private void Start()
+    private void Update()
     {
         StartCoroutine(die());
     }

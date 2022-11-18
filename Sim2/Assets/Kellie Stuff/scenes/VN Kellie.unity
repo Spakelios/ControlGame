@@ -1037,7 +1037,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: de75af8e876dbdf498b68ca984f5328a, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 8c96def3e1e00c0419e2981167f61ab3, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -1715,9 +1715,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'ToeHater: grr  i hate toes
-
-'
+  m_text: 'Spakelios: Simp'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d19b6f0849476af40a14fabcb736db18, type: 2}
   m_sharedMaterial: {fileID: 3641287799441377684, guid: d19b6f0849476af40a14fabcb736db18,
@@ -3801,8 +3799,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Local Toe 27: Hi I''m a big fan heres 20 bucks please show me your feet
-    <3'
+  m_text: 'ToeHater: gurl i hate toes, show them and i''ll cry'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d19b6f0849476af40a14fabcb736db18, type: 2}
   m_sharedMaterial: {fileID: 3641287799441377684, guid: d19b6f0849476af40a14fabcb736db18,
@@ -5502,6 +5499,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Dono1: {fileID: 485652110}
   Dono2: {fileID: 128077094}
+  Dono3: {fileID: 1850160481}
+  Dono4: {fileID: 1626054193}
   digit: 0
 --- !u!4 &876575368
 Transform:
@@ -10147,7 +10146,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: de75af8e876dbdf498b68ca984f5328a, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 113ed2d2a6f817c468227661a66c61ca, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -10898,7 +10897,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: de75af8e876dbdf498b68ca984f5328a, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 87383eea64160b245867c05ba88e800a, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -11626,8 +11625,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Local Toe 27: Hi I''m a big fan heres 20 bucks please show me your feet
-    <3'
+  m_text: Giga Chad donated 0.02
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d19b6f0849476af40a14fabcb736db18, type: 2}
   m_sharedMaterial: {fileID: 3641287799441377684, guid: d19b6f0849476af40a14fabcb736db18,

@@ -52,5 +52,13 @@ public class Buttons : MonoBehaviour
  public void newscene()
  {
   SceneManager.LoadScene("VN Kellie");
+ } 
+ public void newscene2()
+ {
+  SceneManager.LoadScene("VN JO");
+ } 
+ public void newscene3()
+ {
+  SceneManager.LoadScene("VN LISA");
  }
 }

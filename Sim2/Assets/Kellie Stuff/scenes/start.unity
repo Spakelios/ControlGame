@@ -312,7 +312,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.18867922, g: 0.0042719766, b: 0.0042719766, a: 1}
+  m_Color: {r: 0.05882353, g: 0.24705882, b: 0.44313726, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -965,6 +965,7 @@ GameObject:
   - component: {fileID: 1080926285}
   - component: {fileID: 1080926286}
   - component: {fileID: 1080926284}
+  - component: {fileID: 1080926289}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -1049,7 +1050,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1080926287}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1080926289}
+        m_TargetAssemblyTypeName: Buttons, Assembly-CSharp
+        m_MethodName: newscene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1080926286
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1145,6 +1158,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1080926282}
   m_CullTransparentMesh: 1
+--- !u!114 &1080926289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1080926282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3deae2b40f50684a82aa0dd5b6d0d44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam1: {fileID: 0}
+  cam2: {fileID: 0}
+  cam3: {fileID: 0}
+  cam4: {fileID: 0}
 --- !u!1 &1189948268
 GameObject:
   m_ObjectHideFlags: 0
@@ -1317,6 +1346,7 @@ GameObject:
   - component: {fileID: 1285150174}
   - component: {fileID: 1285150178}
   - component: {fileID: 1285150177}
+  - component: {fileID: 1285150179}
   m_Layer: 5
   m_Name: Image (2)
   m_TagString: Untagged
@@ -1388,7 +1418,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1285150175}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1285150179}
+        m_TargetAssemblyTypeName: Buttons, Assembly-CSharp
+        m_MethodName: newscene3
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1285150175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1470,7 +1512,7 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-  - eventID: 2
+  - eventID: 1
     callback:
       m_PersistentCalls:
         m_Calls:
@@ -1486,6 +1528,22 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &1285150179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1285150172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3deae2b40f50684a82aa0dd5b6d0d44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam1: {fileID: 0}
+  cam2: {fileID: 0}
+  cam3: {fileID: 0}
+  cam4: {fileID: 0}
 --- !u!1 &1318546625
 GameObject:
   m_ObjectHideFlags: 0
@@ -2009,6 +2067,7 @@ GameObject:
   - component: {fileID: 1957533490}
   - component: {fileID: 1957533493}
   - component: {fileID: 1957533494}
+  - component: {fileID: 1957533495}
   m_Layer: 5
   m_Name: Image (1)
   m_TagString: Untagged
@@ -2079,7 +2138,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1957533491}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1957533495}
+        m_TargetAssemblyTypeName: Buttons, Assembly-CSharp
+        m_MethodName: newscene2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1957533491
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2177,6 +2248,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _button: {fileID: 1957533490}
   sprites: {fileID: 1260699573}
+--- !u!114 &1957533495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1957533488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3deae2b40f50684a82aa0dd5b6d0d44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam1: {fileID: 0}
+  cam2: {fileID: 0}
+  cam3: {fileID: 0}
+  cam4: {fileID: 0}
 --- !u!224 &1971959626 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5893075380186207010, guid: 8ae8add67075b604baab24bd1b387008,

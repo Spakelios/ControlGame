@@ -7,6 +7,7 @@ public class SimonSaysNPC : MonoBehaviour
     public GameObject leftFlag;
     public GameObject rightFlag;
     public int flagNumber;
+    public GameObject canvas;
     public int whichFlag;
     public List<int> flagOrder;
     private void Start()
@@ -14,6 +15,7 @@ public class SimonSaysNPC : MonoBehaviour
        leftFlag.SetActive(false);
        rightFlag.SetActive(false);
        flagNumber = 0;
+       canvas.SetActive(false);
        flagOrder = new List<int>();
        
        StartCoroutine(holdFlag());
@@ -61,6 +63,8 @@ public class SimonSaysNPC : MonoBehaviour
                     break;
             }
         }
+        
+        canvas.SetActive(true);
     }
     
     

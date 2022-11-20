@@ -5,7 +5,8 @@ using UnityEngine;
 
 public class Spawn : MonoBehaviour
 {
-    public Sprite heart;
+    public GameObject heart;
+    public GameObject spawner;
 
     public void Update()
     {
@@ -15,9 +16,10 @@ public class Spawn : MonoBehaviour
     // Update is called once per frame
     IEnumerator spawn()
     {
-        Instantiate(heart);
+        Instantiate(heart, transform.position, heart.transform.rotation);
 
-        yield return new WaitForSeconds(2);
-       gameObject.SetActive(false);
+        yield return new WaitForSeconds(5);
+        
+        spawner.SetActive(false);
     }
 }

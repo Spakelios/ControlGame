@@ -19,8 +19,9 @@ public class ButtonController : MonoBehaviour
 
         if (name == "woah1")
         { 
-            InfoStorage.Kei--;
+           
         }
         
+ 
     }
 }

@@ -1,6 +1,8 @@
 EXTERNAL Name(charName)
+EXTERNAL Icon(charName)
 
 {Name("Kei")}
+{Icon("Kei")}
 
 
 Hey, you ready to go?
@@ -91,7 +93,7 @@ Hit the left arrow key to return to them.
    aww you'd like that wouldn't you? 
    Then yeah, colour me curious
    
-   -> END
+   * [ what would you like to know? ] -> eleven
  
  == nine == 
  
@@ -101,9 +103,56 @@ Hit the left arrow key to return to them.
     Your viewers want to connect with you
     but if you arent interested we can do something else... 
     
+    * [ Yeah I should've picked someone else ] ->  ten
     
- 
-
-
+    
+    
+    
+    == eleven == 
+    
+     {Name("Kei")}
+      
+    Perhaps this is all too fast..
+    Yes a slow burn might be better..
+    Theres still so much time to get your attention!
+    How about we play some games?
+    
+    * [Yeah, i don't like being interrogated :(] -> twelve
+       
+       
+    ==ten==
+    
+    {Name("Kei")} 
+    
+    Excuse me? You asked me for help and you treat me like this?
+    have fun with your stream then. 
+    I'm out
+    
+    {Icon("Empty")}
+    
+    Kei has left...
 
 -> END
+
+== twelve == 
+
+     {Name("Kei")}
+     
+     They should be up on your middle monitor
+     You set it up im lazy..!
+     
+     {Icon("empty")}
+     
+     please change to the middle monitor with the up arrow button
+     when you're ready to play! 
+      -> END
+
+
+
+
+   
+   
+   
+   
+   
+

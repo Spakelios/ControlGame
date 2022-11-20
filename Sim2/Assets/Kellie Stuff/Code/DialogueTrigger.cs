@@ -17,7 +17,7 @@ public class DialogueTrigger : MonoBehaviour
 
 
     public Image characterIcon;
-    public Image Icon;
+    public Sprite Icon;
     [SerializeField] private GridLayoutGroup choiceHolder;
     [SerializeField] private Button choiceButtonPrefab;
     public GameObject butt;
@@ -27,6 +27,7 @@ public class DialogueTrigger : MonoBehaviour
     void Start()
     {
         LoadStory();
+     
     }
 
     void Update()
@@ -34,6 +35,11 @@ public class DialogueTrigger : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             DisplayNextLine();
+            
+        }
+        if (num >= 2)
+        {
+            num = 0;
         }
     }
 

@@ -61,7 +61,7 @@ You can see it by pressing the left arrow key.
 The middle screen has your stream and all your planned games. 
 You can see this by pressing the forward arrow key. 
 Your collab partner sits on your right screen.
-Hit the left arrow key to return to them. 
+Hit the right arrow key to return to them. 
 
 * [ woohoo! we're here at last! ] -> seven 
 -> END

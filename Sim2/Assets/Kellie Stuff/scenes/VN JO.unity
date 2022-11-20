@@ -9350,6 +9350,16 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1746548772903742859, guid: 236b1df2ddf8401428739a92e0447ec8,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 581254159}
+    - target: {fileID: 1746548772903742859, guid: 236b1df2ddf8401428739a92e0447ec8,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ResetGame
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 236b1df2ddf8401428739a92e0447ec8, type: 3}
 --- !u!1 &1443343161 stripped

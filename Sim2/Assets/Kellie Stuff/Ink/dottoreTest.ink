@@ -90,8 +90,8 @@ Hit the right arrow key to return to them.
  
    {Name("Kei")}
    
-   aww you'd like that wouldn't you? 
-   Then yeah, colour me curious
+   pfft, you'd like that wouldn't you? 
+   Then yeah, colour me curious or whatever..
    
    * [ what would you like to know? ] -> eleven
  

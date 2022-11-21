@@ -33,7 +33,7 @@ RectTransform:
   - {fileID: 1262093358}
   - {fileID: 1576586091}
   m_Father: {fileID: 5413583130858976450}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -496,7 +496,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5413583130858976450}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &5413583129786900849
 SpriteRenderer:
@@ -574,11 +574,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5413583130357673326}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.5, y: 2.15, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalPosition: {x: 5.7629905, y: 1.1379683, z: 0.36767864}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 5413583131168213333}
-  m_RootOrder: 1
+  m_Father: {fileID: 5413583130858976450}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &5413583130357673327
 SpriteRenderer:
@@ -742,7 +742,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5413583130858976450}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &5413583130545462064
 SpriteRenderer:
@@ -912,6 +912,7 @@ Transform:
   - {fileID: 5413583130967199924}
   - {fileID: 5413583131237244037}
   - {fileID: 5413583131556967873}
+  - {fileID: 5413583130357673312}
   - {fileID: 5413583129786900850}
   - {fileID: 5413583130545462065}
   - {fileID: 630005612}
@@ -1009,7 +1010,6 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 5413583130947983052}
-  - {fileID: 5413583130357673312}
   m_Father: {fileID: 5413583130858976450}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1083,6 +1083,9 @@ MonoBehaviour:
   leftBall: {fileID: 5413583129637696198}
   middleBall: {fileID: 5413583131309393457}
   rightBall: {fileID: 5413583130618133273}
+  leftBallStart: {fileID: 0}
+  middleBallStart: {fileID: 0}
+  rightBallStart: {fileID: 0}
   leftHoop: {fileID: 5413583130545462079}
   middleHoop: {fileID: 5413583129786900848}
   rightHoop: {fileID: 5413583130357673326}

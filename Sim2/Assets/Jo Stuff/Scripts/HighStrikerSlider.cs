@@ -21,6 +21,7 @@ public class HighStrikerSlider : MonoBehaviour
     // Start is called before the first frame update
     private void OnEnable()
     {
+        sssslider.SetActive(true);
         progress = Mathf.Clamp(progress, 0, 50);
         slider.value = progress;
         goUp = true;

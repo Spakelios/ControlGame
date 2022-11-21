@@ -7,17 +7,16 @@ public class SimonSaysPlayer : MonoBehaviour
     public GameObject leftFlag;
     public GameObject rightFlag;
     private TaikoDrumTest taikoDrum;
-    private UniversalTimer timer;
+    public UniversalTimer timer;
     public GameObject winScreen;
     public GameObject loseScreen;
     public List<int> playerFlag;
-    private SimonSaysNPC npc;
+    public SimonSaysNPC npc;
     
     private void OnEnable()
     {
         taikoDrum = new TaikoDrumTest();
         npc = FindObjectOfType<SimonSaysNPC>();
-        timer = FindObjectOfType<UniversalTimer>();
         winScreen.SetActive(false);
         loseScreen.SetActive(false);
         playerFlag = new List<int>();

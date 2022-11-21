@@ -10,15 +10,16 @@ public class UniversalTimer : MonoBehaviour
     public GameObject loseScreen;
     public TextMeshProUGUI timer;
 
-    private void Awake()
+    private void OnEnable()
     {
         time = 5;
         loseScreen.SetActive(false);
+        StartCoroutine(Countdown());
     }
 
-    private void OnEnable()
+    private void OnDisable()
     {
-        StartCoroutine(Countdown());
+        StopCoroutine(Countdown());
     }
 
     // Update is called once per frame

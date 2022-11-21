@@ -17,6 +17,10 @@ public class BasketballPlayer : MonoBehaviour
     public GameObject middleBall;
     public GameObject rightBall;
 
+    public Transform leftBallStart;
+    public Transform middleBallStart;
+    public Transform rightBallStart;
+
     public GameObject leftHoop;
     public GameObject middleHoop;
     public GameObject rightHoop;
@@ -38,6 +42,9 @@ public class BasketballPlayer : MonoBehaviour
     {
         taikoDrum = new TaikoDrumTest();
         taikoDrum.Drum.Enable();
+        leftBall.transform.position = leftBallStart.position;
+        middleBall.transform.position = middleBallStart.position;
+        rightBall.transform.position = rightBallStart.transform.position;
         player = gameObject;
         player.transform.position = pointMiddle.transform.position;
         atLeft = false;

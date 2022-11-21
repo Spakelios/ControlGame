@@ -13699,7 +13699,7 @@ PrefabInstance:
     - target: {fileID: 1919855493187935736, guid: a8841611b2f077e4dbe2d33a27f88c46,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1919855493187935739, guid: a8841611b2f077e4dbe2d33a27f88c46,
         type: 3}
@@ -13820,6 +13820,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 652722848, guid: 7e1514974806b1a489dfacd74aeb57e9, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 902139101, guid: 7e1514974806b1a489dfacd74aeb57e9, type: 3}
       propertyPath: winScreen
       value: 
@@ -13836,6 +13840,10 @@ PrefabInstance:
       propertyPath: loseScreen
       value: 
       objectReference: {fileID: 1203635939}
+    - target: {fileID: 1594199495, guid: 7e1514974806b1a489dfacd74aeb57e9, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 959088002704913578, guid: 7e1514974806b1a489dfacd74aeb57e9,
         type: 3}
       propertyPath: loseScreen
@@ -13900,6 +13908,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: HighStrikers
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274282070481859252, guid: 7e1514974806b1a489dfacd74aeb57e9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1274282070822124619, guid: 7e1514974806b1a489dfacd74aeb57e9,
         type: 3}
@@ -14380,6 +14393,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MinigameManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 6537649659367609224, guid: 2552d6e16a5bbf84e807d68a68c2b4a8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6537649659367609226, guid: 2552d6e16a5bbf84e807d68a68c2b4a8,
         type: 3}

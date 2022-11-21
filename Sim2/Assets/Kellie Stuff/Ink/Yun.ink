@@ -39,7 +39,7 @@ I'd hate to think you were struggling to adjust.
 but please, don't worry if you're 
 I'm here to support you!
 
-* [Thank you Yun, I'm glad you're with me] - > four
+* [Thank you Yun, I'm glad you're with me] -> five
 
 == three == 
 

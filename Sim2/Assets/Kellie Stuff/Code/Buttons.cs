@@ -10,6 +10,9 @@ public class Buttons : MonoBehaviour
  public GameObject cam2;
  public GameObject cam3;
  public GameObject cam4;
+ public GameObject startMenu;
+ public GameObject testControls;
+ public StartGame startGame;
 
  public void cameras()
  {
@@ -60,5 +63,16 @@ public class Buttons : MonoBehaviour
  public void newscene3()
  {
   SceneManager.LoadScene("VN LISA");
+ }
+
+ public void StartGame()
+ {
+  startGame.GameTime();
+ }
+
+ public void TestControls()
+ {
+  startMenu.SetActive(false);
+  testControls.SetActive(true);
  }
 }

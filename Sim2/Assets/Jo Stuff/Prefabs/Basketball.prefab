@@ -656,8 +656,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5413583130411595118}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.23701, y: 1.1379683, z: 0.36767825}
-  m_LocalScale: {x: 4.487747, y: 3.216219, z: 2.659406}
+  m_LocalPosition: {x: -1.252, y: 1.21, z: 0.36767825}
+  m_LocalScale: {x: 4.5598383, y: 3.2612462, z: 2.659406}
   m_Children: []
   m_Father: {fileID: 5413583130858976450}
   m_RootOrder: 1
@@ -1088,6 +1088,7 @@ MonoBehaviour:
   rightHoop: {fileID: 5413583130357673326}
   hand: {fileID: 5413583130947983051}
   score: 0
+  timer: {fileID: 1262093361}
   winScreen: {fileID: 0}
 --- !u!114 &5413583131168213335
 MonoBehaviour:

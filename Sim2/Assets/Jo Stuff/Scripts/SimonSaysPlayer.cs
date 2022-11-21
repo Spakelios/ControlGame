@@ -56,7 +56,7 @@ public class SimonSaysPlayer : MonoBehaviour
             }
         }
 
-        else
+        else if (playerFlag.Count >= 5)
         {
             CompareLists();
         }

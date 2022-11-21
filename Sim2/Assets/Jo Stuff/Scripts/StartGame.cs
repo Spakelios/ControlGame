@@ -71,6 +71,8 @@ public class StartGame : MonoBehaviour
         secondGame = true;
         currentGame.SetActive(false);
         currentGame = null;
+        winScreen.SetActive(false);
+        loseScreen.SetActive(false);
         
         switch (gameOrder[1])
         {
@@ -95,6 +97,8 @@ public class StartGame : MonoBehaviour
         thirdGame = true;
         currentGame.SetActive(false);
         currentGame = null;
+        winScreen.SetActive(false);
+        loseScreen.SetActive(false);
         
         switch (gameOrder[2])
         {

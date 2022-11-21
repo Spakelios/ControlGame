@@ -1,5 +1,35 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &144678567
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 144678568}
+  m_Layer: 0
+  m_Name: LeftBallLocation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &144678568
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 144678567}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -8.23701, y: -1.8620317, z: 0.36767825}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_Children: []
+  m_Father: {fileID: 5413583130858976450}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &630005611
 GameObject:
   m_ObjectHideFlags: 0
@@ -251,6 +281,36 @@ MonoBehaviour:
   time: 0
   loseScreen: {fileID: 0}
   timer: {fileID: 1262093359}
+--- !u!1 &1392462668
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1392462669}
+  m_Layer: 0
+  m_Name: RightBallLocation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1392462669
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392462668}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 5.76299, y: -1.8620317, z: 0.36767825}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_Children: []
+  m_Father: {fileID: 5413583130858976450}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1576586090
 GameObject:
   m_ObjectHideFlags: 0
@@ -385,6 +445,36 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &1947364253
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1947364254}
+  m_Layer: 0
+  m_Name: MiddleBallLocation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1947364254
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947364253}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.23701, y: -1.8620317, z: 0.36767825}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_Children: []
+  m_Father: {fileID: 5413583130858976450}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5413583129637696198
 GameObject:
   m_ObjectHideFlags: 0
@@ -916,6 +1006,9 @@ Transform:
   - {fileID: 5413583129786900850}
   - {fileID: 5413583130545462065}
   - {fileID: 630005612}
+  - {fileID: 144678568}
+  - {fileID: 1947364254}
+  - {fileID: 1392462669}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1079,13 +1172,13 @@ MonoBehaviour:
   player: {fileID: 5413583131168213331}
   pointLeft: {fileID: 5413583131237244036}
   pointMiddle: {fileID: 5413583130967199923}
-  pointRight: {fileID: 5413583130618133273}
+  pointRight: {fileID: 5413583131556967872}
   leftBall: {fileID: 5413583129637696198}
   middleBall: {fileID: 5413583131309393457}
   rightBall: {fileID: 5413583130618133273}
-  leftBallStart: {fileID: 0}
-  middleBallStart: {fileID: 0}
-  rightBallStart: {fileID: 0}
+  leftBallStart: {fileID: 144678568}
+  middleBallStart: {fileID: 1947364254}
+  rightBallStart: {fileID: 1392462669}
   leftHoop: {fileID: 5413583130545462079}
   middleHoop: {fileID: 5413583129786900848}
   rightHoop: {fileID: 5413583130357673326}

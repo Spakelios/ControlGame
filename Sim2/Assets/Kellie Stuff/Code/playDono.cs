@@ -67,11 +67,11 @@ StopCoroutine(play4());
 
 
 
- private void FixedUpdate()
+ private void Update()
  {
-  if (Input.GetKeyDown(KeyCode.Space))
+  if (Input.GetKeyDown(KeyCode.F))
   {
-   digit = Random.Range(1, 4);
+   digit = Random.Range(1, 5);
    if (digit == 1)
    {
     StartCoroutine(play());

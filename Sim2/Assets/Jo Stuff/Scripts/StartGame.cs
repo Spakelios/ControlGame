@@ -10,10 +10,16 @@ public class StartGame : MonoBehaviour
     private GameObject currentGame;
     public List<int> gameOrder;
     public int gameID;
+    public GameObject startScreen;
+    public bool firstGame;
+    public bool secondGame;
+    public bool thirdGame;
+    public GameObject winScreen;
+    public GameObject loseScreen;
     
     private void Start()
     {
-        
+        startScreen.SetActive(true);
         basketball.SetActive(false);
         striker.SetActive(false);
         simon.SetActive(false);
@@ -22,6 +28,7 @@ public class StartGame : MonoBehaviour
 
     public void GameTime()
     {
+        startScreen.SetActive(false);
         while (gameOrder.Count < 3)
         {
             gameID = Random.Range(1, 4);
@@ -39,6 +46,8 @@ public class StartGame : MonoBehaviour
 
     private void GameOne()
     {
+        firstGame = true;
+        
         switch (gameOrder[0])
         {
             case 1:
@@ -56,8 +65,10 @@ public class StartGame : MonoBehaviour
         }
     }
 
-    private void GameTwo()
+    public void GameTwo()
     {
+        firstGame = false;
+        secondGame = true;
         currentGame.SetActive(false);
         currentGame = null;
         
@@ -78,8 +89,10 @@ public class StartGame : MonoBehaviour
         }
     }
 
-    private void GameThree()
+    public void GameThree()
     {
+        secondGame = false;
+        thirdGame = true;
         currentGame.SetActive(false);
         currentGame = null;
         
@@ -102,6 +115,9 @@ public class StartGame : MonoBehaviour
 
     public void RestartGame()
     {
+        winScreen.SetActive(false);
+        loseScreen.SetActive(false);
+        startScreen.SetActive(true);
         gameOrder.Clear();
         currentGame = null;
         basketball.SetActive(false);

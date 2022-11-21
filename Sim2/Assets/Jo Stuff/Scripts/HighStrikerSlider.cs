@@ -8,15 +8,18 @@ public class HighStrikerSlider : MonoBehaviour
 {
     public int progress;
     public Slider slider;
+    public GameObject sssslider;
 
     public bool goUp;
     public bool goDown;
 
     private TaikoDrumTest taikoDrum;
+    public GameObject winScreen;
+    public GameObject loseScreen;
 
     public UniversalTimer timer;
     // Start is called before the first frame update
-    void Start()
+    private void OnEnable()
     {
         progress = Mathf.Clamp(progress, 0, 50);
         slider.value = progress;
@@ -25,7 +28,6 @@ public class HighStrikerSlider : MonoBehaviour
 
         taikoDrum = new TaikoDrumTest();
         taikoDrum.Drum.Enable();
-        timer = FindObjectOfType<UniversalTimer>();
     }
 
     private void Update()
@@ -100,12 +102,14 @@ public class HighStrikerSlider : MonoBehaviour
 
         if (progress >= 45)
         {
-            Debug.Log("You win!");
+            winScreen.SetActive(true);
+            sssslider.SetActive(false);
         }
 
         else
         {
-            Debug.Log("You lose!");
+            loseScreen.SetActive(true);
+            sssslider.SetActive(false);
         }
     }
 
@@ -113,6 +117,6 @@ public class HighStrikerSlider : MonoBehaviour
     {
         goUp = false;
         goDown = false;
-        Debug.Log("You lose!");
+        sssslider.SetActive(false);
     }
 }

@@ -75,4 +75,22 @@ public class Buttons : MonoBehaviour
   startMenu.SetActive(false);
   testControls.SetActive(true);
  }
+
+ public void NextGame()
+ {
+  if (startGame.firstGame)
+  {
+   startGame.GameTwo();
+  }
+  
+  else if (startGame.secondGame)
+  {
+   startGame.GameThree();
+  }
+
+  else if (startGame.thirdGame)
+  {
+   startGame.RestartGame();
+  }
+ }
 }

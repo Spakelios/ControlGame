@@ -31,10 +31,10 @@ public class BasketballPlayer : MonoBehaviour
 
     public int score;
 
-    private UniversalTimer timer;
+    public UniversalTimer timer;
     public GameObject winScreen;
 
-    private void Start()
+    private void OnEnable()
     {
         taikoDrum = new TaikoDrumTest();
         taikoDrum.Drum.Enable();
@@ -45,7 +45,6 @@ public class BasketballPlayer : MonoBehaviour
         atRight = false;
         holdingBall = false;
         score = 0;
-        timer = FindObjectOfType<UniversalTimer>();
     }
 
     private void Update()

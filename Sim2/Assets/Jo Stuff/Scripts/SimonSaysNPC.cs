@@ -10,7 +10,7 @@ public class SimonSaysNPC : MonoBehaviour
     public GameObject canvas;
     public int whichFlag;
     public List<int> flagOrder;
-    private void Start()
+    private void OnEnable()
     {
        leftFlag.SetActive(false);
        rightFlag.SetActive(false);

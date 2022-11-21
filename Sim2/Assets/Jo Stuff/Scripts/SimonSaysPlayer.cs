@@ -13,7 +13,7 @@ public class SimonSaysPlayer : MonoBehaviour
     public List<int> playerFlag;
     private SimonSaysNPC npc;
     
-    private void Start()
+    private void OnEnable()
     {
         taikoDrum = new TaikoDrumTest();
         npc = FindObjectOfType<SimonSaysNPC>();

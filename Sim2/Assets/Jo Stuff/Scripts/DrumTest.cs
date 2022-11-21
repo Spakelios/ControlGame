@@ -1,24 +1,34 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 public class DrumTest : MonoBehaviour
 {
     public TaikoDrumTest taikoDrum;
-    public SpriteRenderer leftFace;
-    public SpriteRenderer rightFace;
-    public SpriteRenderer leftRim;
-    public SpriteRenderer rightRim;
+    public Image leftFace;
+    public Image rightFace;
+    public Image leftRim;
+    public Image rightRim;
 
-    private void Start()
+    private void OnEnable()
     {
         taikoDrum = new TaikoDrumTest();
         taikoDrum.Drum.Enable();
-        leftFace = GameObject.Find("left face").GetComponent<SpriteRenderer>();
-        rightFace = GameObject.Find("right face").GetComponent<SpriteRenderer>();
-        leftRim = GameObject.Find("left rim").GetComponent<SpriteRenderer>();
-        rightRim = GameObject.Find("right rim").GetComponent<SpriteRenderer>();
+        leftFace = GameObject.Find("left face").GetComponent<Image>();
+        rightFace = GameObject.Find("right face").GetComponent<Image>();;
+        leftRim = GameObject.Find("left rim").GetComponent<Image>();;
+        rightRim = GameObject.Find("right rim").GetComponent<Image>();
+    }
+
+    private void OnDisable()
+    {
+        leftFace.color = Color.white;
+        rightFace.color = Color.white;
+        leftRim.color = Color.gray;
+        rightRim.color = Color.gray;
     }
 
     private void Update()

@@ -69,7 +69,7 @@ StopCoroutine(play4());
 
  private void FixedUpdate()
  {
-  if (Input.GetKeyDown(KeyCode.Backspace))
+  if (Input.GetKeyDown(KeyCode.Space))
   {
    digit = Random.Range(1, 4);
    if (digit == 1)

@@ -11,6 +11,7 @@ public class Buttons : MonoBehaviour
  public GameObject cam3;
  public GameObject cam4;
  public GameObject startMenu;
+ public GameObject drumMenu;
  public GameObject testControls;
  public StartGame startGame;
 
@@ -92,5 +93,17 @@ public class Buttons : MonoBehaviour
   {
    startGame.RestartGame();
   }
+ }
+
+ public void DrumTest()
+ {
+  drumMenu.SetActive(true);
+  startMenu.SetActive(false);
+ }
+
+ public void ReturnToStart()
+ {
+  drumMenu.SetActive(false);
+  startMenu.SetActive(true);
  }
 }
